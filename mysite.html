@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NrJ</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+          <body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://media0.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif?cid=ecf05e476qvg535napdgo3vx0p3ep4kycfak628ltfchriv3&rid=giphy.gif&ct=g');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/046-GDU-MET-Blog-Chrome-Animation-JH.gif');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://blog.zoom.us/wp-content/uploads/2022/02/CCBlogGif.gif');
+}
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <img src="">
+            <nav>
+                <ul>
+                    <li style="font-family: 'Courier New', monospace;"><a href="#hero">Home</a></li>
+                    <li style="font-family: 'Courier New', monospace;"><a href="#about">About</a></li>
+                    <li style="font-family: 'Courier New', monospace;"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="section-inner">
+                    <img src="" class="profile-img">
+                    <h1>Hi, I'm Neeraj.M .</h1>
+                </div>
+            </section>
+            <section id="about">
+                <div class="section-inner">
+                    <h2>About me</h2>
+                    <p style="font-size:25px;">I'm a fresher who likes coding and would like to explore more of it's possibilities.</p>
+                    <p2 style="font-size:25px;">I'm honing my skills in python and is in search of opportunities.</p2>
+                    <h3 style="font-size:30px;">Educational Qualification</h3>
+                    <ul>
+                        <li style="font-size:25px;">Bachelor of Computer Application,2022,Mahathma Ghandi University</li>
+                        <li style="font-size:25px;">Class 12th,2019,Campion school</li>
+                        <li style="font-size:25px;">Class 10th,2017,Campion school</li>
+                    </ul>
+                     <h3 style="font-size:30px;">Skills</h3>
+                    <ul>
+                        <li style="font-size:25px;">Computer Literacy</li>
+                        <li style="font-size:25px;">Problem Solving</li>
+                        <li style="font-size:25px;">MySql Handling</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>Contact me</h2>
+                    <p style="font-size:25px;">You can find me on:</p>
+                    <ul>
+                        <li style="font-size:23px;"><a href="https://www.linkedin.com/in/neeraj-m-177440263/">LinkedIn</a></li>
+                        <li style="font-size:23px;"><a href="https://www.instagram.com/_.straw_hat._/">Instagram</a></li>
+                    </ul>
+                    <p style="font-size:20px;">Or, you can send me an email to strawhatnrj@gmail.com.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright nrj, 2022.
+        </footer>
+    </body>
+</html>
